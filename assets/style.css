@@ -16,13 +16,13 @@ body {
     flex-direction: column;
     height: 100%;
     background-color: #ded5d5;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'League Gothic';
 }
 
 header {
     height: 100px;
     width: 100%;
-    background-color: #000000;
+    background-color: #1c1411;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -53,7 +53,7 @@ header {
 }
 
 .menu {
-    width: 850px;
+    width: 870px;
 }
 
 .menu ul {
@@ -69,7 +69,7 @@ header {
 
 .menu ul li a:hover {
     background-color: #ded5d5;
-    color: #000000;
+    color: #1c1411;
     transition: 0.3s;
 }
 
@@ -82,29 +82,41 @@ header {
     justify-content: center;
     display: flex;
     color: #fff;
+    text-align: center;
+    align-items: center;
 }
 
 .container {
-    border: 1px solid black;
+    border: 1px solid #1c1411;
     width: 1200px;
     height: 100%;
     padding-top: 110px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .linha {
     width: 100%;
-    height: 100vh;
+    height: 135vh;
     background-color: #ded5d5;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #1c1411;
     display: flex;
     justify-content: center;
 }
 
 /* CARDS DOS PRODUTOS */
 .card {
-    width: 270px;
-    height: 290px;
+    width: 260px;
+    height: 385px;
     background-color: #ffffff;
     text-align: center;
     align-content: center;
@@ -112,6 +124,7 @@ header {
     border-radius: 15px;
     box-shadow: 3px 3px 5px #787878;
     margin-bottom: 30px;
+    justify-content: space-around;
 }
 
 .card:hover {
@@ -124,7 +137,7 @@ header {
 
 .card img {
     width: 200px;
-    height: 200px;
+    height: 210px;
     object-fit: cover;
 }
 
@@ -142,7 +155,7 @@ footer {
     width: 100%;
     height: 300px;
     display: flex;
-    background-color: #000;
+    background-color: #1c1411;
     color: #fff;
     justify-content: center;
     align-items: center;
@@ -154,6 +167,9 @@ footer {
     border: 1px solid white;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 22px;
 }
 
 .coluna_rodape img {
