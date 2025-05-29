@@ -3,6 +3,8 @@
     --cor-secundaria: #ded5d5;
     --cor-fundo: #787878;
     --fundo_card: #ffffff;
+    --animacao_card: #f00c0c;
+    --menu: #efb554;
     --fonte_principal: 'Caveat Brush';
     --fonte_logo: 'League Gothic';
 }
@@ -83,7 +85,7 @@ header {
 }
 
 .menu ul li a:hover {
-    background-color: var(--cor-secundaria);
+    background-color: var(--menu);
     color: var(--cor-primaria);
     transition: 0.3s;
 }
@@ -149,6 +151,8 @@ h1 {
 
 .card:hover {
     transform: scale(1.10);
+    background-color: var(--animacao_card);
+    color: var(--fundo_card);
 }
 
 .card a {
