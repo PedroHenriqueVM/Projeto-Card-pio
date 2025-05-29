@@ -1,14 +1,14 @@
-:root{
+:root {
     --cor-primaria: #1c1411;
     --cor-secundaria: #ded5d5;
     --cor-fundo: #787878;
     --fundo_card: #ffffff;
-    --fonte_principal: 'Caveat Brush'; 
+    --fonte_principal: 'Caveat Brush';
     --fonte_logo: 'League Gothic';
 }
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -102,7 +102,7 @@ header {
 }
 
 .container {
-   /* border: 1px solid var(--cor-primaria); */
+    /* border: 1px solid var(--cor-primaria); */
     width: 1200px;
     height: 100%;
     padding-top: 110px;
@@ -116,7 +116,8 @@ header {
 h1 {
     font-size: 25px;
     text-align: center;
-    margin-top: 20px;;
+    margin-top: 20px;
+    ;
     align-content: center;
 }
 
@@ -195,6 +196,8 @@ footer {
 }
 
 .coluna_rodape img {
-    width: auto;
-    height: 100%;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    margin-left: 90px;
 }
