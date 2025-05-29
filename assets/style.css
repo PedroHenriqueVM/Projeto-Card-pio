@@ -116,10 +116,14 @@ header {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     margin-top: 0px;
     align-content: center;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+h1 span{
+   font-size: 50px;
 }
 
 .container h1 {
