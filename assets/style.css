@@ -97,6 +97,7 @@ header {
 }
 
 .container {
+    border: 1px solid var(--cor-primaria);
     width: 1200px;
     height: 100%;
     padding-top: 110px;
@@ -130,7 +131,7 @@ h1 {
     align-content: center;
     padding: 15px;
     border-radius: 15px;
-    box-shadow: var(--cor-fundo) 3px 3px 5px;
+    box-shadow: rgb(120, 120, 120) 3px 3px 5px;
     margin-bottom: 30px;
     justify-content: space-around;
     align-items: center;
